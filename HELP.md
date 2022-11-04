@@ -1,27 +1,47 @@
-# Getting Started
+[//]: # (# Getting Started)
 
-### Reference Documentation
+[//]: # ()
+[//]: # (### Reference Documentation)
 
-For further reference, please consider the following sections:
+[//]: # ()
+[//]: # (For further reference, please consider the following sections:)
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/maven-plugin/)
-* [Thymeleaf](https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
-* [JDBC API](https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-sql)
-* [MyBatis Framework](https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
+[//]: # ()
+[//]: # (* [Official Apache Maven documentation]&#40;https://maven.apache.org/guides/index.html&#41;)
 
-### Guides
+[//]: # (* [Spring Boot Maven Plugin Reference Guide]&#40;https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/maven-plugin/&#41;)
 
-The following guides illustrate how to use some features concretely:
+[//]: # (* [Thymeleaf]&#40;https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-spring-mvc-template-engines&#41;)
 
-* [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
-* [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
-* [Managing Transactions](https://spring.io/guides/gs/managing-transactions/)
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
-* [MyBatis Plus Official](https://baomidou.com/en/guide/)
-* [MyBatis Quick Start](https://github.com/mybatis/spring-boot-starter/wiki/Quick-Start)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+[//]: # (* [JDBC API]&#40;https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-sql&#41;)
 
+[//]: # (* [MyBatis Framework]&#40;https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/&#41;)
+
+[//]: # (* [Spring Web]&#40;https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications&#41;)
+
+[//]: # ()
+[//]: # (### Guides)
+
+[//]: # ()
+[//]: # (The following guides illustrate how to use some features concretely:)
+
+[//]: # ()
+[//]: # (* [Handling Form Submission]&#40;https://spring.io/guides/gs/handling-form-submission/&#41;)
+
+[//]: # (* [Accessing Relational Data using JDBC with Spring]&#40;https://spring.io/guides/gs/relational-data-access/&#41;)
+
+[//]: # (* [Managing Transactions]&#40;https://spring.io/guides/gs/managing-transactions/&#41;)
+
+[//]: # (* [Accessing data with MySQL]&#40;https://spring.io/guides/gs/accessing-data-mysql/&#41;)
+
+[//]: # (* [MyBatis Plus Official]&#40;https://baomidou.com/en/guide/&#41;)
+
+[//]: # (* [MyBatis Quick Start]&#40;https://github.com/mybatis/spring-boot-starter/wiki/Quick-Start&#41;)
+
+[//]: # (* [Building a RESTful Web Service]&#40;https://spring.io/guides/gs/rest-service/&#41;)
+
+[//]: # (* [Serving Web Content with Spring MVC]&#40;https://spring.io/guides/gs/serving-web-content/&#41;)
+
+[//]: # (* [Building REST services with Spring]&#40;https://spring.io/guides/tutorials/bookmarks/&#41;)
+
+[//]: # ()
