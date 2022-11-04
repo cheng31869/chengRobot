@@ -226,6 +226,6 @@ public class ChengRobotApplication
         //创建用户拦截器对象并指定其拦截的路径和排除的路径
         registry.addInterceptor(new LoginInterceptor())
                 .addPathPatterns(new String[]{"/**"})
-                .excludePathPatterns(new String[]{"/login/**"});
+                .excludePathPatterns(new String[]{"/login/**","/login"});
     }
 }

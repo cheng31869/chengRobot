@@ -6,8 +6,8 @@ import lombok.Data;
 public class RestData
 {
     public static int LOGIN_SUCCESS = 10;
-    public static int WRONG_PASSWORD = 10;
-    public static int LESS_INFO = 10;
+    public static int WRONG_PASSWORD = 11;
+    public static int LESS_INFO = 12;
 
     public int code;
     public String message;

@@ -20,17 +20,20 @@ public class LoginController
     @ResponseBody()
     public RestData login(String username, Integer password, HttpServletRequest request)
     {
+        System.out.println(username);
         RestData result = new RestData();
         if (username == null || password == null)
         {
             result.setCode(RestData.LESS_INFO);
             result.setMessage("请输入用户名与密码");
+            return result;
         }
         Administrator administrator = service.getAdministrator(username, password);
         if (administrator == null)
         {
             result.setCode(RestData.WRONG_PASSWORD);
             result.setMessage("用户名或密码错误");
+            return result;
         }
         
         request.getSession().setAttribute("administrator",administrator);

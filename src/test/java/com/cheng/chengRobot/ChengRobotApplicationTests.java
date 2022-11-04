@@ -23,7 +23,7 @@ class ChengRobotApplicationTests
     @Autowired
     private PlaygroundGameService service;
 
-    @Test
+//    @Test
     public void test1()
             throws IOException, AWTException, InterruptedException
     {
