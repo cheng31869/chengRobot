@@ -18,7 +18,7 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
   resources:
-    static-locations: classpath:/dist
+    static-locations: classpath:/dist/
 
 mybatis-plus:
   mapper-locations: com.cheng.chengRobot.dao.mappersXml/*xml
@@ -36,7 +36,7 @@ device_info_path: D:\robot_cache\myDeviceInfo.json
 
 spring:
   resources:
-    static-locations: classpath:/static/
+    static-locations: classpath:/dist/
 
   thymeleaf:
     prefix: classpath:/templates/

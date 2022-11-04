@@ -3,6 +3,7 @@ package com.cheng.chengRobot;
 import com.cheng.chengRobot.domain.MessageForward;
 import com.cheng.chengRobot.domain.PlaygroundGame;
 import com.cheng.chengRobot.domain.Robot;
+import com.cheng.chengRobot.interceptor.LoginInterceptor;
 import com.cheng.chengRobot.service.*;
 import lombok.extern.slf4j.Slf4j;
 import net.mamoe.mirai.Bot;
@@ -26,6 +27,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,6 +40,7 @@ import java.util.List;
 @Component
 @Slf4j
 public class ChengRobotApplication
+        implements WebMvcConfigurer
 {
     private static MessageForwardService messageForwardService = null;
     private static RobotService robotService = null;
@@ -49,9 +53,9 @@ public class ChengRobotApplication
             throws IOException, InterruptedException
     {
 
-        try
+        ConfigurableApplicationContext run = SpringApplication.run(ChengRobotApplication.class, args);
+/*        try
         {
-            ConfigurableApplicationContext run = SpringApplication.run(ChengRobotApplication.class, args);
             //获取配置文件
             ConfigurableEnvironment environment = run.getEnvironment();
 
@@ -114,7 +118,7 @@ public class ChengRobotApplication
         groupService.flushGroupListToDB();
 
         //刷新机器人好友
-        robotFriendService.flushRobotFriendsToDB();
+        robotFriendService.flushRobotFriendsToDB();*/
     }
 
     //群消息转发
@@ -206,5 +210,22 @@ public class ChengRobotApplication
             }
         }
 
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry)
+    {
+        //addPathPatterns拦截的路径
+        String[] addPathPatterns = {
+                "/user/**"
+        };
+        //excludePathPatterns排除的路径
+        String[] excludePathPatterns = {
+                "/user/login","/user/noLg","/user/error"
+        };
+        //创建用户拦截器对象并指定其拦截的路径和排除的路径
+        registry.addInterceptor(new LoginInterceptor())
+                .addPathPatterns(new String[]{"/**"})
+                .excludePathPatterns(new String[]{"/login/**"});
     }
 }
