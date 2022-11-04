@@ -17,6 +17,8 @@ spring:
     encoding: UTF-8
     prefix: classpath:/templates/
     suffix: .html
+  resources:
+    static-locations: classpath:/dist
 
 mybatis-plus:
   mapper-locations: com.cheng.chengRobot.dao.mappersXml/*xml
@@ -28,6 +30,7 @@ qq: 2194990854
 password: cheng20021229
 cache_path: D:\robot_cache\cache
 device_info_path: D:\robot_cache\myDeviceInfo.json
+
 
 ---
 
