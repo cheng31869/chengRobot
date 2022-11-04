@@ -1,0 +1,73 @@
+server:
+  port: 80
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: chengRobot
+
+  thymeleaf:
+    cache: true
+    check-template: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+
+mybatis-plus:
+  mapper-locations: com.cheng.chengRobot.dao.mappersXml/*xml
+  type-aliases-package: com.cheng.chengRobot.domain
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+qq: 2194990854
+password: cheng20021229
+cache_path: D:\robot_cache\cache
+device_info_path: D:\robot_cache\myDeviceInfo.json
+
+---
+
+spring:
+  resources:
+    static-locations: classpath:/static/
+
+  thymeleaf:
+    prefix: classpath:/templates/
+
+  profiles: dev
+  datasource:
+    #    name: robotDataSource
+    url: jdbc:mysql://localhost:3306/robot?serverTimezone=UTC
+    username: root
+    name: root
+    password: cheng20021229
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#  机器人日志的路径
+robot-cache-path: D:\robot_cache\
+
+---
+
+spring:
+  resources:
+    static-locations: file:/resources/static/
+
+  thymeleaf:
+    prefix: file:/resources/templates/
+
+  datasource:
+    #    name: robotDataSource
+    url: jdbc:mysql://localhost:3306/robot?serverTimezone=UTC
+    username: root
+    name: root
+    password: WPPW12wo
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  profiles: test
+
+#  机器人日志的路径
+robot-cache-path: D:\robot_cache\

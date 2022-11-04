@@ -1,0 +1,11 @@
+2022-10-27 19:51:59 -Starting ChengRobotApplicationTests using Java 1.8.0_342 on 丞丞 with PID 24832 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-27 19:51:59 -Starting ChengRobotApplicationTests using Java 1.8.0_342 on 丞丞 with PID 24832 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-27 19:51:59 -The following 1 profile is active: "dev"
+2022-10-27 19:51:59 -The following 1 profile is active: "dev"
+2022-10-27 19:51:59 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 70:13]
+2022-10-27 19:51:59 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 41:13]
+2022-10-27 19:52:03 -Adding welcome page: class path resource [static/index.html]
+2022-10-27 19:52:03 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-27 19:52:03 -Started ChengRobotApplicationTests in 4.273 seconds (JVM running for 5.545)
+2022-10-27 19:52:03 -Started ChengRobotApplicationTests in 4.273 seconds (JVM running for 5.545)
+2022-10-27 19:52:05 -{dataSource-0} closing ...

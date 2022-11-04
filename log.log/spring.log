@@ -1,0 +1,15 @@
+2022-10-09 14:54:32.845  INFO 1448 --- [main] c.c.chengRobot.ChengRobotApplication     : Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 1448 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-09 14:54:32.850  INFO 1448 --- [main] c.c.chengRobot.ChengRobotApplication     : The following 1 profile is active: "dev"
+2022-10-09 14:54:32.898  WARN 1448 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-10-09 14:54:32.898  WARN 1448 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 55:13]
+2022-10-09 14:54:33.990  INFO 1448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-10-09 14:54:33.997  INFO 1448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-09 14:54:33.997  INFO 1448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-09 14:54:34.131  INFO 1448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-09 14:54:34.131  INFO 1448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2022-10-09 14:54:35.517  INFO 1448 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-10-09 14:54:35.578  WARN 1448 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 14:54:35.696  INFO 1448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-10-09 14:54:35.708  INFO 1448 --- [main] c.c.chengRobot.ChengRobotApplication     : Started ChengRobotApplication in 3.4 seconds (JVM running for 4.502)
+2022-10-09 14:54:35.711 ERROR 1448 --- [main] c.c.chengRobot.ChengRobotApplication     : java.lang.ArithmeticException: / by zero
+2022-10-09 14:58:16.881  INFO 1448 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...

@@ -1,0 +1,189 @@
+2022-10-11 12:53:29 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 1792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 12:53:29 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 1792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 12:53:29 -The following 1 profile is active: "dev"
+2022-10-11 12:53:29 -The following 1 profile is active: "dev"
+2022-10-11 12:53:29 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 12:53:29 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 12:53:30 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 12:53:30 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 12:53:30 -Starting service [Tomcat]
+2022-10-11 12:53:30 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 12:53:30 -Initializing Spring embedded WebApplicationContext
+2022-10-11 12:53:30 -Root WebApplicationContext: initialization completed in 912 ms
+2022-10-11 12:53:31 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 12:53:31 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 12:53:31 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 12:53:31 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 12:53:31 -Started ChengRobotApplication in 2.264 seconds (JVM running for 3.559)
+2022-10-11 12:53:31 -Started ChengRobotApplication in 2.264 seconds (JVM running for 3.559)
+2022-10-11 12:53:31 -{dataSource-1} inited
+2022-10-11 12:53:46 -{dataSource-1} closing ...
+2022-10-11 12:53:46 -{dataSource-1} closed
+2022-10-11 13:12:58 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 8260 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:12:58 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 8260 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:12:58 -The following 1 profile is active: "dev"
+2022-10-11 13:12:58 -The following 1 profile is active: "dev"
+2022-10-11 13:12:58 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 13:12:58 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 13:12:58 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 13:12:58 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 13:12:58 -Starting service [Tomcat]
+2022-10-11 13:12:58 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 13:12:58 -Initializing Spring embedded WebApplicationContext
+2022-10-11 13:12:58 -Root WebApplicationContext: initialization completed in 800 ms
+2022-10-11 13:12:59 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 13:12:59 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 13:12:59 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 13:12:59 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 13:12:59 -Started ChengRobotApplication in 2.25 seconds (JVM running for 3.012)
+2022-10-11 13:12:59 -Started ChengRobotApplication in 2.25 seconds (JVM running for 3.012)
+2022-10-11 13:12:59 -{dataSource-1} inited
+2022-10-11 13:14:21 -{dataSource-1} closing ...
+2022-10-11 13:14:21 -{dataSource-1} closed
+2022-10-11 13:14:25 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 2660 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:14:25 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 2660 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:14:25 -The following 1 profile is active: "dev"
+2022-10-11 13:14:25 -The following 1 profile is active: "dev"
+2022-10-11 13:14:25 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 13:14:25 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 13:14:25 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 13:14:25 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 13:14:25 -Starting service [Tomcat]
+2022-10-11 13:14:25 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 13:14:25 -Initializing Spring embedded WebApplicationContext
+2022-10-11 13:14:25 -Root WebApplicationContext: initialization completed in 675 ms
+2022-10-11 13:14:26 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 13:14:26 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 13:14:26 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 13:14:26 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 13:14:26 -Started ChengRobotApplication in 1.88 seconds (JVM running for 2.523)
+2022-10-11 13:14:26 -Started ChengRobotApplication in 1.88 seconds (JVM running for 2.523)
+2022-10-11 13:14:26 -{dataSource-1} inited
+2022-10-11 13:26:46 -{dataSource-1} closing ...
+2022-10-11 13:26:46 -{dataSource-1} closed
+2022-10-11 13:27:08 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 15412 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:27:08 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 15412 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 13:27:08 -The following 1 profile is active: "dev"
+2022-10-11 13:27:08 -The following 1 profile is active: "dev"
+2022-10-11 13:27:08 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 13:27:08 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 13:27:09 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 13:27:09 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 13:27:09 -Starting service [Tomcat]
+2022-10-11 13:27:09 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 13:27:09 -Initializing Spring embedded WebApplicationContext
+2022-10-11 13:27:09 -Root WebApplicationContext: initialization completed in 1021 ms
+2022-10-11 13:27:10 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 13:27:10 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 13:27:10 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 13:27:10 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 13:27:10 -Started ChengRobotApplication in 2.413 seconds (JVM running for 3.234)
+2022-10-11 13:27:10 -Started ChengRobotApplication in 2.413 seconds (JVM running for 3.234)
+2022-10-11 13:27:10 -{dataSource-1} inited
+2022-10-11 14:09:59 -{dataSource-1} closing ...
+2022-10-11 14:09:59 -{dataSource-1} closed
+2022-10-11 14:10:05 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 13860 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:10:05 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 13860 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:10:05 -The following 1 profile is active: "dev"
+2022-10-11 14:10:05 -The following 1 profile is active: "dev"
+2022-10-11 14:10:05 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 14:10:05 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 14:10:05 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 14:10:05 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 14:10:05 -Starting service [Tomcat]
+2022-10-11 14:10:05 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 14:10:05 -Initializing Spring embedded WebApplicationContext
+2022-10-11 14:10:05 -Root WebApplicationContext: initialization completed in 780 ms
+2022-10-11 14:10:06 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 14:10:06 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 14:10:06 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 14:10:06 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 14:10:06 -Started ChengRobotApplication in 2.02 seconds (JVM running for 2.677)
+2022-10-11 14:10:06 -Started ChengRobotApplication in 2.02 seconds (JVM running for 2.677)
+2022-10-11 14:10:06 -{dataSource-1} inited
+2022-10-11 14:16:11 -{dataSource-1} closing ...
+2022-10-11 14:16:11 -{dataSource-1} closed
+2022-10-11 14:16:15 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 10988 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:16:15 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 10988 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:16:15 -The following 1 profile is active: "dev"
+2022-10-11 14:16:15 -The following 1 profile is active: "dev"
+2022-10-11 14:16:15 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 67:13]
+2022-10-11 14:16:15 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 53:13]
+2022-10-11 14:16:15 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 14:16:15 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 14:16:15 -Starting service [Tomcat]
+2022-10-11 14:16:15 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 14:16:15 -Initializing Spring embedded WebApplicationContext
+2022-10-11 14:16:15 -Root WebApplicationContext: initialization completed in 672 ms
+2022-10-11 14:16:16 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 14:16:16 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 14:16:16 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 14:16:16 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 14:16:16 -Started ChengRobotApplication in 1.88 seconds (JVM running for 2.583)
+2022-10-11 14:16:16 -Started ChengRobotApplication in 1.88 seconds (JVM running for 2.583)
+2022-10-11 14:16:16 -{dataSource-1} inited
+2022-10-11 14:19:02 -{dataSource-1} closing ...
+2022-10-11 14:19:02 -{dataSource-1} closed
+2022-10-11 14:19:04 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 2672 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:19:04 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 2672 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:19:04 -The following 1 profile is active: "dev"
+2022-10-11 14:19:04 -The following 1 profile is active: "dev"
+2022-10-11 14:19:04 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-10-11 14:19:04 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 55:13]
+2022-10-11 14:19:05 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 14:19:05 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 14:19:05 -Starting service [Tomcat]
+2022-10-11 14:19:05 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 14:19:05 -Initializing Spring embedded WebApplicationContext
+2022-10-11 14:19:05 -Root WebApplicationContext: initialization completed in 671 ms
+2022-10-11 14:19:06 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 14:19:06 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 14:19:06 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 14:19:06 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 14:19:06 -Started ChengRobotApplication in 1.877 seconds (JVM running for 2.545)
+2022-10-11 14:19:06 -Started ChengRobotApplication in 1.877 seconds (JVM running for 2.545)
+2022-10-11 14:19:06 -{dataSource-1} inited
+2022-10-11 14:22:36 -{dataSource-1} closing ...
+2022-10-11 14:22:36 -{dataSource-1} closed
+2022-10-11 14:22:39 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 13512 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:22:39 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 13512 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:22:39 -The following 1 profile is active: "dev"
+2022-10-11 14:22:39 -The following 1 profile is active: "dev"
+2022-10-11 14:22:39 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-10-11 14:22:39 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 55:13]
+2022-10-11 14:22:40 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 14:22:40 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 14:22:40 -Starting service [Tomcat]
+2022-10-11 14:22:40 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 14:22:40 -Initializing Spring embedded WebApplicationContext
+2022-10-11 14:22:40 -Root WebApplicationContext: initialization completed in 685 ms
+2022-10-11 14:22:41 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 14:22:41 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 14:22:41 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 14:22:41 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 14:22:41 -Started ChengRobotApplication in 1.951 seconds (JVM running for 2.59)
+2022-10-11 14:22:41 -Started ChengRobotApplication in 1.951 seconds (JVM running for 2.59)
+2022-10-11 14:22:41 -{dataSource-1} inited
+2022-10-11 14:24:07 -{dataSource-1} closing ...
+2022-10-11 14:24:07 -{dataSource-1} closed
+2022-10-11 14:24:14 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 17556 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:24:14 -Starting ChengRobotApplication using Java 1.8.0_342 on 丞丞 with PID 17556 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-10-11 14:24:14 -The following 1 profile is active: "dev"
+2022-10-11 14:24:14 -The following 1 profile is active: "dev"
+2022-10-11 14:24:14 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-10-11 14:24:14 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 55:13]
+2022-10-11 14:24:14 -Tomcat initialized with port(s): 80 (http)
+2022-10-11 14:24:14 -Initializing ProtocolHandler ["http-nio-80"]
+2022-10-11 14:24:14 -Starting service [Tomcat]
+2022-10-11 14:24:14 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 14:24:15 -Initializing Spring embedded WebApplicationContext
+2022-10-11 14:24:15 -Root WebApplicationContext: initialization completed in 797 ms
+2022-10-11 14:24:15 -Adding welcome page: class path resource [static/index.html]
+2022-10-11 14:24:15 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-11 14:24:15 -Starting ProtocolHandler ["http-nio-80"]
+2022-10-11 14:24:15 -Tomcat started on port(s): 80 (http) with context path ''
+2022-10-11 14:24:15 -Started ChengRobotApplication in 2.022 seconds (JVM running for 3.155)
+2022-10-11 14:24:15 -Started ChengRobotApplication in 2.022 seconds (JVM running for 3.155)
+2022-10-11 14:24:15 -{dataSource-1} inited
+2022-10-11 19:18:31 -{dataSource-1} closing ...
+2022-10-11 19:18:31 -{dataSource-1} closed
