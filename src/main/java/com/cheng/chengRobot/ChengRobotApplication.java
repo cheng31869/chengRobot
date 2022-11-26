@@ -6,6 +6,7 @@ import com.cheng.chengRobot.domain.Robot;
 import com.cheng.chengRobot.interceptor.LoginInterceptor;
 import com.cheng.chengRobot.service.*;
 import lombok.extern.slf4j.Slf4j;
+
 import net.mamoe.mirai.Bot;
 import net.mamoe.mirai.BotFactory;
 import net.mamoe.mirai.event.Event;
@@ -16,9 +17,7 @@ import net.mamoe.mirai.event.events.FriendMessageEvent;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.event.events.MessageEvent;
 import net.mamoe.mirai.message.data.MessageChain;
-import net.mamoe.mirai.message.data.MessageChainBuilder;
 import net.mamoe.mirai.message.data.PlainText;
-import net.mamoe.mirai.message.data.SingleMessage;
 import net.mamoe.mirai.utils.BotConfiguration;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -54,7 +53,7 @@ public class ChengRobotApplication
     {
 
         ConfigurableApplicationContext run = SpringApplication.run(ChengRobotApplication.class, args);
-/*        try
+        try
         {
             //获取配置文件
             ConfigurableEnvironment environment = run.getEnvironment();
@@ -77,8 +76,8 @@ public class ChengRobotApplication
                     setProtocol(MiraiProtocol.IPAD);
 
 
-                    setCacheDir(new File(robotCachePath + "\\cache"));
-                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
+//                    setCacheDir(new File(robotCachePath + "\\cache"));
+//                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
                 }});
                 bot.login();
             }
@@ -118,7 +117,7 @@ public class ChengRobotApplication
         groupService.flushGroupListToDB();
 
         //刷新机器人好友
-        robotFriendService.flushRobotFriendsToDB();*/
+        robotFriendService.flushRobotFriendsToDB();
     }
 
     //群消息转发
