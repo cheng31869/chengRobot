@@ -26,10 +26,6 @@ mybatis-plus:
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
-qq: 2194990854
-password: cheng20021229
-cache_path: D:\robot_cache\cache
-device_info_path: D:\robot_cache\myDeviceInfo.json
 
 
 ---

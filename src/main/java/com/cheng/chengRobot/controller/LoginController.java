@@ -37,7 +37,7 @@ public class LoginController
         }
         
         request.getSession().setAttribute("administrator",administrator);
-        result.setCode(RestData.LOGIN_SUCCESS);
+        result.setCode(RestData.SUCCESS);
         result.setMessage("登陆成功");
         return result;
     }

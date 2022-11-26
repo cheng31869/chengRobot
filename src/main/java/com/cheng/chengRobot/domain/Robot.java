@@ -23,4 +23,7 @@ public class Robot
 
     //操场管理功能开关
     private Boolean playgroundManager;
+
+    //chatgpt开关
+    private Boolean chatGpt;
 }

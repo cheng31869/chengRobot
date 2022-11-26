@@ -6,6 +6,7 @@ import com.cheng.chengRobot.domain.Robot;
 import com.cheng.chengRobot.interceptor.LoginInterceptor;
 import com.cheng.chengRobot.service.*;
 import lombok.extern.slf4j.Slf4j;
+
 import net.mamoe.mirai.Bot;
 import net.mamoe.mirai.BotFactory;
 import net.mamoe.mirai.event.Event;
@@ -16,9 +17,7 @@ import net.mamoe.mirai.event.events.FriendMessageEvent;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.event.events.MessageEvent;
 import net.mamoe.mirai.message.data.MessageChain;
-import net.mamoe.mirai.message.data.MessageChainBuilder;
 import net.mamoe.mirai.message.data.PlainText;
-import net.mamoe.mirai.message.data.SingleMessage;
 import net.mamoe.mirai.utils.BotConfiguration;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -34,7 +33,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-
+//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
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @MapperScan("com.cheng.chengRobot.dao.mappers")
 @Component
@@ -54,7 +53,7 @@ public class ChengRobotApplication
     {
 
         ConfigurableApplicationContext run = SpringApplication.run(ChengRobotApplication.class, args);
-/*        try
+        try
         {
             //获取配置文件
             ConfigurableEnvironment environment = run.getEnvironment();
@@ -74,7 +73,7 @@ public class ChengRobotApplication
                     //设置缓存与设备信息路径
                     String robotCachePath = environment.getProperty("robot-cache-path") + robot.getCachePath();
                     System.out.println(robotCachePath);
-                    setProtocol(MiraiProtocol.IPAD);
+                    setProtocol(MiraiProtocol.ANDROID_PHONE);
 
 
                     setCacheDir(new File(robotCachePath + "\\cache"));
@@ -104,10 +103,6 @@ public class ChengRobotApplication
                     forwardFriendMessage((FriendMessageEvent) ev);
                 }
             });
-            for (Bot bot : Bot.getInstances())
-            {
-                bot.getGroups();
-            }
         }
         catch (Exception e)
         {
@@ -118,7 +113,7 @@ public class ChengRobotApplication
         groupService.flushGroupListToDB();
 
         //刷新机器人好友
-        robotFriendService.flushRobotFriendsToDB();*/
+        robotFriendService.flushRobotFriendsToDB();
     }
 
     //群消息转发

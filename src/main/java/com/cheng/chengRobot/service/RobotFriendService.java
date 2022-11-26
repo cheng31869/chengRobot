@@ -68,6 +68,8 @@ public class RobotFriendService
                     robotFriend = new RobotFriend();
                     robotFriend.setRobotQq(bot.getId());
                     robotFriend.setQq(friend.getId());
+                    robotFriend.setNickName(friend.getNick());
+                    robotFriend.setRemark(friend.getRemark());
                     mapper.insert(robotFriend);
                 }
             }

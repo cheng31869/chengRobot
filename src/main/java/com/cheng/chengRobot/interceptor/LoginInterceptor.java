@@ -1,7 +1,12 @@
 package com.cheng.chengRobot.interceptor;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.server.WebHandler;
+import org.springframework.web.servlet.HandlerExecutionChain;
 import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,10 +16,13 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginInterceptor
         implements HandlerInterceptor
 {
+
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception
     {
+
         if (request.getSession().getAttribute("administrator") == null)
         {
             return false;
