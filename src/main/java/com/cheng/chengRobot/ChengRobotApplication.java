@@ -76,8 +76,8 @@ public class ChengRobotApplication
                     setProtocol(MiraiProtocol.ANDROID_PHONE);
 
 
-                    setCacheDir(new File(robotCachePath + "\\cache"));
-                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
+//                    setCacheDir(new File(robotCachePath + "\\cache"));
+//                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
                 }});
                 bot.login();
             }

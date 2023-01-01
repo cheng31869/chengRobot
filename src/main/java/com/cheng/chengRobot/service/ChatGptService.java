@@ -1,6 +1,6 @@
 package com.cheng.chengRobot.service;
 
-import lombok.Data;
+
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import org.springframework.stereotype.Service;
 

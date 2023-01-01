@@ -1,0 +1,260 @@
+2022-12-30 14:51:54 -{dataSource-1} closing ...
+2022-12-30 14:51:54 -{dataSource-1} closed
+2022-12-30 14:52:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 13232 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:52:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 13232 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:52:00 -The following 1 profile is active: "dev"
+2022-12-30 14:52:00 -The following 1 profile is active: "dev"
+2022-12-30 14:52:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 14:52:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 14:52:00 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 14:52:00 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 14:52:00 -Starting service [Tomcat]
+2022-12-30 14:52:00 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 14:52:00 -Initializing Spring embedded WebApplicationContext
+2022-12-30 14:52:00 -Root WebApplicationContext: initialization completed in 850 ms
+2022-12-30 14:52:01 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 14:52:01 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 14:52:01 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 14:52:01 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 14:52:01 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 14:52:01 -Started ChengRobotApplication in 1.967 seconds (JVM running for 2.596)
+2022-12-30 14:52:01 -Started ChengRobotApplication in 1.967 seconds (JVM running for 2.596)
+2022-12-30 14:52:01 -{dataSource-1} inited
+2022-12-30 14:52:29 -{dataSource-1} closing ...
+2022-12-30 14:52:29 -{dataSource-1} closed
+2022-12-30 14:52:32 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 10840 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:52:32 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 10840 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:52:32 -The following 1 profile is active: "dev"
+2022-12-30 14:52:32 -The following 1 profile is active: "dev"
+2022-12-30 14:52:33 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 14:52:33 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 14:52:33 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 14:52:33 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 14:52:33 -Starting service [Tomcat]
+2022-12-30 14:52:33 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 14:52:33 -Initializing Spring embedded WebApplicationContext
+2022-12-30 14:52:33 -Root WebApplicationContext: initialization completed in 681 ms
+2022-12-30 14:52:33 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 14:52:34 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 14:52:34 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 14:52:34 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 14:52:34 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 14:52:34 -Started ChengRobotApplication in 1.593 seconds (JVM running for 2.021)
+2022-12-30 14:52:34 -Started ChengRobotApplication in 1.593 seconds (JVM running for 2.021)
+2022-12-30 14:52:34 -{dataSource-1} inited
+2022-12-30 14:55:57 -{dataSource-1} closing ...
+2022-12-30 14:55:57 -{dataSource-1} closed
+2022-12-30 14:56:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 9956 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:56:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 9956 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 14:56:00 -The following 1 profile is active: "dev"
+2022-12-30 14:56:00 -The following 1 profile is active: "dev"
+2022-12-30 14:56:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 14:56:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 14:56:00 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 14:56:00 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 14:56:00 -Starting service [Tomcat]
+2022-12-30 14:56:00 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 14:56:00 -Initializing Spring embedded WebApplicationContext
+2022-12-30 14:56:00 -Root WebApplicationContext: initialization completed in 685 ms
+2022-12-30 14:56:00 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 14:56:01 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 14:56:01 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 14:56:01 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 14:56:01 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 14:56:01 -Started ChengRobotApplication in 1.663 seconds (JVM running for 2.097)
+2022-12-30 14:56:01 -Started ChengRobotApplication in 1.663 seconds (JVM running for 2.097)
+2022-12-30 14:56:01 -{dataSource-1} inited
+2022-12-30 15:03:13 -{dataSource-1} closing ...
+2022-12-30 15:03:13 -{dataSource-1} closed
+2022-12-30 15:03:15 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 19792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:03:15 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 19792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:03:15 -The following 1 profile is active: "dev"
+2022-12-30 15:03:15 -The following 1 profile is active: "dev"
+2022-12-30 15:03:15 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:03:15 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:03:16 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:03:16 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:03:16 -Starting service [Tomcat]
+2022-12-30 15:03:16 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:03:16 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:03:16 -Root WebApplicationContext: initialization completed in 661 ms
+2022-12-30 15:03:16 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:03:16 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:03:16 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:03:16 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:03:16 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:03:16 -Started ChengRobotApplication in 1.545 seconds (JVM running for 2.022)
+2022-12-30 15:03:16 -Started ChengRobotApplication in 1.545 seconds (JVM running for 2.022)
+2022-12-30 15:03:16 -{dataSource-1} inited
+2022-12-30 15:03:17 -{dataSource-1} closing ...
+2022-12-30 15:03:17 -{dataSource-1} closed
+2022-12-30 15:05:50 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 1340 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:05:50 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 1340 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:05:50 -The following 1 profile is active: "dev"
+2022-12-30 15:05:50 -The following 1 profile is active: "dev"
+2022-12-30 15:05:50 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:05:50 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:05:51 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:05:51 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:05:51 -Starting service [Tomcat]
+2022-12-30 15:05:51 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:05:51 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:05:51 -Root WebApplicationContext: initialization completed in 690 ms
+2022-12-30 15:05:51 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:05:52 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:05:52 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:05:52 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:05:52 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:05:52 -Started ChengRobotApplication in 1.614 seconds (JVM running for 2.056)
+2022-12-30 15:05:52 -Started ChengRobotApplication in 1.614 seconds (JVM running for 2.056)
+2022-12-30 15:05:52 -{dataSource-1} inited
+2022-12-30 15:06:58 -{dataSource-1} closing ...
+2022-12-30 15:06:58 -{dataSource-1} closed
+2022-12-30 15:07:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 26472 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:07:00 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 26472 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:07:00 -The following 1 profile is active: "dev"
+2022-12-30 15:07:00 -The following 1 profile is active: "dev"
+2022-12-30 15:07:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:07:00 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:07:01 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:07:01 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:07:01 -Starting service [Tomcat]
+2022-12-30 15:07:01 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:07:01 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:07:01 -Root WebApplicationContext: initialization completed in 688 ms
+2022-12-30 15:07:01 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:07:01 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:07:02 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:07:02 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:07:02 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:07:02 -Started ChengRobotApplication in 1.604 seconds (JVM running for 2.05)
+2022-12-30 15:07:02 -Started ChengRobotApplication in 1.604 seconds (JVM running for 2.05)
+2022-12-30 15:07:02 -{dataSource-1} inited
+2022-12-30 15:07:47 -{dataSource-1} closing ...
+2022-12-30 15:07:47 -{dataSource-1} closed
+2022-12-30 15:07:52 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 29792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:07:52 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 29792 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:07:52 -The following 1 profile is active: "dev"
+2022-12-30 15:07:52 -The following 1 profile is active: "dev"
+2022-12-30 15:07:52 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:07:52 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:07:53 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:07:53 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:07:53 -Starting service [Tomcat]
+2022-12-30 15:07:53 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:07:53 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:07:53 -Root WebApplicationContext: initialization completed in 684 ms
+2022-12-30 15:07:53 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:07:54 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:07:54 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:07:54 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:07:54 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:07:54 -Started ChengRobotApplication in 1.677 seconds (JVM running for 2.081)
+2022-12-30 15:07:54 -Started ChengRobotApplication in 1.677 seconds (JVM running for 2.081)
+2022-12-30 15:07:54 -{dataSource-1} inited
+2022-12-30 15:10:21 -{dataSource-1} closing ...
+2022-12-30 15:10:21 -{dataSource-1} closed
+2022-12-30 15:10:26 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 31384 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:10:26 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 31384 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:10:26 -The following 1 profile is active: "dev"
+2022-12-30 15:10:26 -The following 1 profile is active: "dev"
+2022-12-30 15:10:26 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:10:26 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:10:27 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:10:27 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:10:27 -Starting service [Tomcat]
+2022-12-30 15:10:27 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:10:27 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:10:27 -Root WebApplicationContext: initialization completed in 685 ms
+2022-12-30 15:10:27 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:10:28 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:10:28 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:10:28 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:10:28 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:10:28 -Started ChengRobotApplication in 1.58 seconds (JVM running for 2.008)
+2022-12-30 15:10:28 -Started ChengRobotApplication in 1.58 seconds (JVM running for 2.008)
+2022-12-30 15:10:28 -{dataSource-1} inited
+2022-12-30 15:14:06 -{dataSource-1} closing ...
+2022-12-30 15:14:06 -{dataSource-1} closed
+2022-12-30 15:14:10 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 27724 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:14:10 -Starting ChengRobotApplication using Java 17.0.2 on 丞丞 with PID 27724 (C:\Users\31869\IdeaProjects\chengRobot\target\classes started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 15:14:10 -The following 1 profile is active: "dev"
+2022-12-30 15:14:10 -The following 1 profile is active: "dev"
+2022-12-30 15:14:10 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 15:14:10 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 15:14:10 -Tomcat initialized with port(s): 80 (http)
+2022-12-30 15:14:10 -Initializing ProtocolHandler ["http-nio-80"]
+2022-12-30 15:14:10 -Starting service [Tomcat]
+2022-12-30 15:14:10 -Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-30 15:14:10 -Initializing Spring embedded WebApplicationContext
+2022-12-30 15:14:10 -Root WebApplicationContext: initialization completed in 683 ms
+2022-12-30 15:14:11 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 15:14:11 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 15:14:11 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 15:14:11 -Starting ProtocolHandler ["http-nio-80"]
+2022-12-30 15:14:11 -Tomcat started on port(s): 80 (http) with context path ''
+2022-12-30 15:14:11 -Started ChengRobotApplication in 1.592 seconds (JVM running for 2.017)
+2022-12-30 15:14:11 -Started ChengRobotApplication in 1.592 seconds (JVM running for 2.017)
+2022-12-30 15:14:11 -{dataSource-1} inited
+2022-12-30 16:26:48 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 17624 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 16:26:48 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 17624 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 16:26:48 -The following 1 profile is active: "dev"
+2022-12-30 16:26:48 -The following 1 profile is active: "dev"
+2022-12-30 16:26:48 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 16:26:48 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 16:26:49 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 16:26:50 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 16:26:50 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 16:26:50 -Started ChengRobotApplicationTests in 2.161 seconds (JVM running for 2.867)
+2022-12-30 16:26:50 -Started ChengRobotApplicationTests in 2.161 seconds (JVM running for 2.867)
+2022-12-30 16:26:53 -{dataSource-0} closing ...
+2022-12-30 16:27:25 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 27268 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 16:27:25 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 27268 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 16:27:25 -The following 1 profile is active: "dev"
+2022-12-30 16:27:25 -The following 1 profile is active: "dev"
+2022-12-30 16:27:25 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 16:27:25 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 16:27:26 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 16:27:27 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 16:27:27 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 16:27:27 -Started ChengRobotApplicationTests in 2.118 seconds (JVM running for 2.861)
+2022-12-30 16:27:27 -Started ChengRobotApplicationTests in 2.118 seconds (JVM running for 2.861)
+2022-12-30 16:27:30 -{dataSource-0} closing ...
+2022-12-30 22:35:18 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 7580 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:35:18 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 7580 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:35:18 -The following 1 profile is active: "dev"
+2022-12-30 22:35:18 -The following 1 profile is active: "dev"
+2022-12-30 22:35:18 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 22:35:18 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 22:35:19 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 22:35:20 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 22:35:20 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 22:35:20 -Started ChengRobotApplicationTests in 2.292 seconds (JVM running for 3.13)
+2022-12-30 22:35:20 -Started ChengRobotApplicationTests in 2.292 seconds (JVM running for 3.13)
+2022-12-30 22:35:21 -{dataSource-0} closing ...
+2022-12-30 22:36:10 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 14384 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:36:10 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 14384 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:36:10 -The following 1 profile is active: "dev"
+2022-12-30 22:36:10 -The following 1 profile is active: "dev"
+2022-12-30 22:36:10 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 22:36:10 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 22:36:11 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 22:36:12 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 22:36:12 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 22:36:12 -Started ChengRobotApplicationTests in 2.248 seconds (JVM running for 2.983)
+2022-12-30 22:36:12 -Started ChengRobotApplicationTests in 2.248 seconds (JVM running for 2.983)
+2022-12-30 22:36:12 -{dataSource-0} closing ...
+2022-12-30 22:37:12 -{dataSource-1} closing ...
+2022-12-30 22:37:12 -{dataSource-1} closed
+2022-12-30 22:37:16 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 13264 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:37:16 -Starting ChengRobotApplicationTests using Java 17.0.2 on 丞丞 with PID 13264 (started by 31869 in C:\Users\31869\IdeaProjects\chengRobot)
+2022-12-30 22:37:16 -The following 1 profile is active: "dev"
+2022-12-30 22:37:16 -The following 1 profile is active: "dev"
+2022-12-30 22:37:16 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 69:13]
+2022-12-30 22:37:16 -Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-12-30 22:37:17 -This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.cheng.chengRobot.domain.Administrator"
+2022-12-30 22:37:18 -Adding welcome page: class path resource [dist/index.html]
+2022-12-30 22:37:18 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-30 22:37:18 -Started ChengRobotApplicationTests in 2.053 seconds (JVM running for 2.798)
+2022-12-30 22:37:18 -Started ChengRobotApplicationTests in 2.053 seconds (JVM running for 2.798)
+2022-12-30 22:37:19 -{dataSource-0} closing ...
