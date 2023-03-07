@@ -18,4 +18,5 @@ public class RobotGroup
     private Long groupNumber;
     private String groupName;
     private Boolean playgroundManager;
+    private Boolean chatGpt;
 }

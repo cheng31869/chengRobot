@@ -79,4 +79,17 @@ public class RobotService
         else return robot.getPlaygroundManager();
     }
 
+    public boolean isChatGptTurnedOn(int id)
+    {
+        Robot robot = getRobot(id);
+        if (robot == null) return false;
+        else return robot.getChatGpt();
+    }
+
+    public boolean isChatGptTurnedOn(Long qq)
+    {
+        Robot robot = getRobot(qq);
+        if (robot == null) return false;
+        else return robot.getChatGpt();
+    }
 }

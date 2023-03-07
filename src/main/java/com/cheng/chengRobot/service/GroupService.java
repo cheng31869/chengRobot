@@ -119,4 +119,16 @@ public class GroupService
         }
     }
 
+    public boolean isChatGptTurnedOn(Long robotQq,Long groupNumber)
+    {
+        RobotGroup group = getGroup(robotQq, groupNumber);
+        if (group == null)
+        {
+            return false;
+        }
+        else
+        {
+            return group.getChatGpt();
+        }
+    }
 }

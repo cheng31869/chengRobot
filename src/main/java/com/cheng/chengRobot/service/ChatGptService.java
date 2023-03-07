@@ -2,6 +2,9 @@ package com.cheng.chengRobot.service;
 
 
 import net.mamoe.mirai.event.events.GroupMessageEvent;
+import net.mamoe.mirai.message.data.MessageChain;
+import net.mamoe.mirai.message.data.SingleMessage;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Iterator;
@@ -111,13 +114,23 @@ public class ChatGptService
         }
     }
 
-    //这个列表里面装与所有群友的聊天记录对象
-    private List<GroupMessageMemory> groupMessages;
-    //这个里面装与所有好友聊天记录对象
-    private List<FriendMessageMemory> friendMessages;
+    @Autowired
+    GroupService groupService;
+
+    @Autowired
+    RobotService robotService;
 
     public void handleGroupMessage(GroupMessageEvent event)
     {
+        if(!robotService.isChatGptTurnedOn(event.getBot().getId())) return;
+        if(!groupService.isChatGptTurnedOn(event.getBot().getId(),event.getGroup().getId())) return;
 
+        MessageChain messages = event.getMessage();
+        String messageString = "";
+        for (SingleMessage singleMessage:messages)
+        {
+            messageString += singleMessage.contentToString();
+        }
+        System.out.println(messageString);
     }
 }

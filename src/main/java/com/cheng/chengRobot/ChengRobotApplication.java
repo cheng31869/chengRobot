@@ -15,6 +15,7 @@ import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.Listener;
 import net.mamoe.mirai.event.events.FriendMessageEvent;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
+import net.mamoe.mirai.event.events.GroupMessageSyncEvent;
 import net.mamoe.mirai.event.events.MessageEvent;
 import net.mamoe.mirai.message.data.MessageChain;
 import net.mamoe.mirai.message.data.PlainText;
@@ -48,6 +49,7 @@ public class ChengRobotApplication
 
     private static PlaygroundMessageService playgroundMessageService = null;
 
+    private static ChatGptService chatGptService = null;
     public static void main(String[] args)
             throws IOException, InterruptedException
     {
@@ -64,6 +66,7 @@ public class ChengRobotApplication
             groupService = (GroupService) run.getBean(GroupService.class);
             playgroundMessageService = (PlaygroundMessageService) run.getBean(PlaygroundMessageService.class);
             robotFriendService = (RobotFriendService) run.getBean(RobotFriendService.class);
+            chatGptService = (ChatGptService) run.getBean(ChatGptService.class);
 
             //循环登录数据库里面的每一个qq
             for (Robot robot : robotService.getAllRobot())
@@ -72,12 +75,12 @@ public class ChengRobotApplication
                 {{
                     //设置缓存与设备信息路径
                     String robotCachePath = environment.getProperty("robot-cache-path") + robot.getCachePath();
-                    System.out.println(robotCachePath);
+
                     setProtocol(MiraiProtocol.ANDROID_PHONE);
 
 
-//                    setCacheDir(new File(robotCachePath + "\\cache"));
-//                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
+                    setCacheDir(new File(robotCachePath + "\\cache"));
+                    fileBasedDeviceInfo(robotCachePath + "\\myDeviceInfo.json");
                 }});
                 bot.login();
             }
@@ -102,6 +105,16 @@ public class ChengRobotApplication
                 {
                     forwardFriendMessage((FriendMessageEvent) ev);
                 }
+            });
+
+            //添加gpt监听器
+            Listener<MessageEvent> chatGptListener = channel.subscribeAlways(MessageEvent.class, ev -> {
+                System.out.println(ev.getClass());
+                if (ev instanceof GroupMessageEvent)
+                {
+                    chatGptService.handleGroupMessage((GroupMessageEvent) ev);
+                }
+
             });
         }
         catch (Exception e)
